@@ -9,6 +9,9 @@ print(user)
 print(user["name"])
 print(user.get("name"))
 
+print(user.pop ("age"))
+
+print(user)
 
 lang = {
     "one":{
