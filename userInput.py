@@ -1,6 +1,15 @@
-fName = input("What\'s Is Your first Name : ")
-mName = input("What\'s Is Your midddle Name : ")
-lName = input("What\'s Is Your last Name : ")
+fName = "Brahim"
+
+print(fName[2])
 
 
-print(f'Hello {fName} {mName} {lName}')
+print(fName)
+
+myIter = iter(fName)
+print(next(myIter))
+print("hello")
+print(next(myIter))
+print(next(myIter))
+print(next(myIter))
+print(next(myIter))
+print(next(myIter))
