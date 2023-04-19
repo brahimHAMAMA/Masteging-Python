@@ -1,1 +1,1 @@
-El
+self.age *365
