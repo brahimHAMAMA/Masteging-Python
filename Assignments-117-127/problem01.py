@@ -1,0 +1,7 @@
+# INTEGER
+# STRING
+# DATETIME
+# TEXT
+# SMALLINT
+# boolean
+# REAL
