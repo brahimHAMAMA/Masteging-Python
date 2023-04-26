@@ -26,12 +26,17 @@ id = input('Enter ID : ')
 cr.execute(f'SELECT id FROM users WHERE id = {id}')
 id_found = cr.fetchone()
 
-print(id_found[0])
-print(type(id_found[0]))
-print(type(int(id)))
-print(id_found == id)
+if len(id_found) !=0:
+    id_found1 = id_found[0]
+else:
+    id_found1 = None
 
-if( id_found == int(id)):
+print(id_found1)
+print(type(id_found1))
+print(type(int(id)))
+print(id_found1 == id)
+
+if( id_found1 == int(id)):
     cr.execute(f'DELETE FROM users WHERE id = {id}')
     db.commit()
     print("User Deleted.")
